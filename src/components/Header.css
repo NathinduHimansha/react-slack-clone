@@ -1,0 +1,55 @@
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 10px 0;
+  background-color: var(--slack-color);
+  color: white;
+}
+
+.header_left {
+  /* from parent flex take 30% */
+  flex: 0.3;
+  display: flex;
+  align-items: center;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+/* targetting material ui icons */
+.header_left > .MuiSvgIcon-root {
+  margin-left: auto;
+  margin-left: 30px;
+}
+
+.header_search {
+  flex: 0.4;
+  background-color: #421f44;
+  text-align: center;
+  display: flex;
+  padding: 0 50px;
+  color: gray;
+  border: 1px solid gray;
+  border-radius: 6px;
+  height: 30px;
+  align-items: center;
+}
+
+.header_search > input {
+  background-color: transparent;
+  color: white;
+  border: none;
+  text-align: center;
+  min-width: 35vw;
+  height: 100%;
+}
+.header_right {
+  flex: 0.3;
+  display: flex;
+  align-items: flex-end;
+}
+
+.header_right > .MuiSvgIcon-root {
+  margin-left: auto;
+  margin-right: 20px;
+}

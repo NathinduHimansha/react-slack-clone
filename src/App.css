@@ -1,0 +1,20 @@
+/* css variables */
+body {
+  --slack-color: #3f0f40;
+  overflow: hidden;
+}
+/* end of - css variables */
+
+body > h1,
+h2,
+h3,
+h4,
+p {
+  margin: 0;
+}
+
+.app_body {
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+}

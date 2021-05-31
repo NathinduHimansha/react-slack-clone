@@ -1,0 +1,57 @@
+.sidebar {
+  /* parent flex in ->.app_body(app.css). from it width use 30%  */
+  flex: 0.3;
+  background-color: var(--slack-color);
+  color: white;
+  max-width: 260px;
+  border-top: 1px solid #49274b;
+  padding-right: 20px;
+}
+.sidebar > hr {
+  margin: 10px 0px;
+  border-color: 1px solid #49274b;
+}
+.sidebar_header {
+  display: flex;
+  border-bottom: 1px solid #49274b;
+  padding-bottom: 10x;
+  padding: 13px;
+}
+
+.sidebar_header > .MuiSvgIcon-root {
+  padding: 8px;
+  color: #49274b;
+  font-size: 18px;
+  background-color: white;
+  border-radius: 999px;
+}
+
+.sidebar_infor {
+  flex: 1;
+}
+
+.sidebar_infor > h2,
+h3 {
+  margin-top: 0;
+}
+
+.sidebar_infor > h2 {
+  font-size: 15px;
+  font-weight: 800;
+  margin-bottom: 5px;
+}
+
+.sidebar_infor > h3 {
+  display: flex;
+  align-items: center;
+  font-size: 13px;
+  font-weight: 400;
+}
+
+.sidebar_infor > h3 > .MuiSvgIcon-root {
+  font-size: 14px;
+  margin-top: 1px;
+  margin-left: -5px;
+  margin-right: 2px;
+  color: green;
+}
